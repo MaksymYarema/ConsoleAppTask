@@ -20,6 +20,7 @@ namespace ConsoleAppTask
             Test1.Minus();
             Test1.Multiply();
             Test1.Division();
+            Test1.GetDivisionRemainder();
             Console.WriteLine($"");
             Show show1 = new Show();
             show1.ShowAuthorization();

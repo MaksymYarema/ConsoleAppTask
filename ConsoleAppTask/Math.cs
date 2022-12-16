@@ -58,5 +58,11 @@ namespace ConsoleAppTask
             double result = num1 / num2;
             Console.WriteLine($"Result: " + result);
         }
+
+        public void GetDivisionRemainder()
+        {
+            double result = num1 % num2;
+            Console.WriteLine($"Result: " + result);
+        }
     }
 }
